@@ -1,0 +1,7 @@
+.mailbutton {
+  color: &blue;
+  &:hover {
+  color: $green;
+  text-decoration: none;
+  }
+}
