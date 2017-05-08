@@ -1,0 +1,25 @@
+---
+title: Team
+---
+
+<div class="container text-center padded">
+  <h1>Our Team</h1>
+    <ul class="list-inline">
+      <li>
+        <h2>Bobby</h2>
+        <%= image_tag("bobby.JPG", class: "avatar-xl") %>
+      </li>
+      <li>
+        <h2>Tobby</h2>
+        <%= image_tag("tobby.JPG", class: "avatar-xl") %>
+      </li>
+      <li>
+        <h2>Floki</h2>
+        <%= image_tag("floki.jpg", class: "avatar-xl") %>
+      </li>
+    </ul>
+
+    <% link_to "mailto:puppymail@gmail.com" do %>
+    <h3 class="padded"><i class="fa fa-envelope"></i>puppymail@gmail.com</h3>
+    <% end %>
+</div>
